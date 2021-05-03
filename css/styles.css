@@ -1,0 +1,147 @@
+body {
+  margin: 0;
+  text-align: center;
+}
+
+h1 {
+  font-size: 3.200rem;
+  /*100%=16px=1em ?%=50px = 312.5 ,50px=?em = 3.125 */
+  margin: 0;
+  padding-top: 150px;
+  font-family: 'Satisfy', cursive;
+  ;
+  color: #f25287;
+}
+
+p {
+  color: #81b214;
+  /*126e82*/
+
+  font-family: Tahoma, sans-serif;
+  font-size: 1.25rem;
+}
+
+h2 {
+  font-size: 1.875rem;
+  font-family: 'Abril Fatface', cursive;
+  color: #f25287;
+}
+
+h3 {
+  font-size: 1.775rem;
+  font-family: 'Knewave', cursive;
+  color: #126e82;
+  /*81b214*/
+}
+
+hr {
+  border: dotted #126e82 4px ;
+  border-bottom: 0;
+  margin: 100px auto;
+  width:4%;
+
+}
+/******************************class******************/
+.cloud {
+  margin: 3px;
+  position: relative;
+}
+
+.a {
+  position: absolute;
+  top: 80px;
+  right: 350px;
+}
+
+.b {
+  position: absolute;
+  top: 250px;
+}
+
+.top {
+  background-color: pink;
+padding-top: 3px;
+}
+
+.middle {
+  background-color: lightblue;
+  padding-bottom: 20px;
+}
+
+.bottom {
+  background-color: lightgreen;
+  padding-top: 10px;
+  padding-bottom: 8px;
+
+}
+
+.proimg {
+  image-resolution: from-image;
+  width: 150px;
+}
+
+.con {
+text-decoration: none;
+}
+.con:hover {
+color: #eaf6f6;
+}
+.contact2 {
+  image-resolution: from-image;
+  width: 70px
+}
+
+.contact1 {
+  background-color: #cffffe;
+  padding-top: 10%;
+}
+
+.link {
+  text-decoration: none;
+  color: darkgreen;
+  font-size: 15px;
+
+}
+
+.copyright {
+  font-size: 17px;
+}
+
+.link:hover {
+  color: #eaf6f6;
+}
+
+.dev {
+  width: 50%;
+  margin: 50px auto;
+  text-align: left;
+  padding-bottom: 40px;
+}
+
+.pro {
+  color: #ff79cd;
+  font-size: 1.5rem;
+  font-weight: normal;
+}
+
+.web {
+  color: #f25287;
+}
+
+.Get {
+  color: #f25287;
+}
+
+.comp {
+  width: 300px;
+  float: left;
+  padding-right: 25px;
+}
+
+.profile {
+  padding-top: 30px
+}
+
+.email {
+  font-family: 'Alegreya Sans', sans-serif;
+}
